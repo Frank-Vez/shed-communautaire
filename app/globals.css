@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --white-smoke: #eff1edff;
+  --drab-dark-brown: #373d20ff;
+  --reseda-green: #717744ff;
+  --sage: #bcbd8bff;
+  --umber: #766153ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--white-smoke);
+}
+
+h1 {
+  font-size: large;
+  font-weight: 900;
+  color: black;
+}
+
+h2 {
+  font-size: large;
+  font-weight: 700;
+}
+
+p {
+  font-size: medium;
+  font-weight: 400;
+}
