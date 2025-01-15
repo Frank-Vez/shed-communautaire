@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { lusitana, lato } from "./ui/font";
+import Navigation from "@/app/components/navigation";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lusitana.className} ${lato.className} antialiased`}>
+        <Navigation />
         {children}
       </body>
     </html>
