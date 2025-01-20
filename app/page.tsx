@@ -9,7 +9,7 @@ export default function Home() {
         start by creating an account and in no time you'll feel more connected
         to the people around you.
       </p>
-      <ArrowDownCircleIcon className="size-10 fill-black" />
+      <ArrowDownCircleIcon className="size-10" />
     </div>
   );
 }
