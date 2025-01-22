@@ -10,11 +10,11 @@ export default function Form() {
     <form action={formAction}>
       <div>
         <label htmlFor="toolName">Name your tool</label>
-        <input id="toolName" type="text" name="toolName"></input>
+        <input id="toolName" type="text" name="toolName" required></input>
       </div>
       <div>
         <label htmlFor="description">Describe your tool</label>
-        <input id="description" type="text" name="description"></input>
+        <input id="description" type="text" name="description" required></input>
       </div>
       <button type="submit">Send it! </button>
       {state.errors && (
